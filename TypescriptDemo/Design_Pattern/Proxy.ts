@@ -51,7 +51,7 @@ const proxy = new ProxyClass();
 proxy.doSave();
 
 console.log('-----dynamic proxy-----');
-const instance = new DynamicProxy(new   RealSubjectP()).getInstance();
+const instance = new DynamicProxy(new  RealSubjectP()).getInstance();
 instance.doSave();
 // })();
 
